@@ -1,0 +1,91 @@
+/*!
+ * sitemap with CONTENT
+ * ---------------------------------------------------
+ * open github.com
+ * make new repository + put ur name
+ * click initialize this repository with read me
+ * upload ur files
+ * click commit directly to the master branch
+ * commit changes
+ * copy link address
+ * --
+ * open rawgit.com
+ * paste ur link
+ * ---------------------------------------------------
+ */
+.table-of-content {
+  background-color:#fafafa;
+  font:normal normal 11px/normal Verdana,Geneva,"DejaVu Sans",Tahoma,Arial,Sans-serif;
+  color:#999;
+  margin-bottom:5px;
+  overflow:hidden;
+}
+.table-of-content .toc-header {
+  margin:0;
+  padding:10px 15px;
+  overflow:hidden;
+  cursor:pointer;
+  font:inherit;
+  font-size:15px;
+  font-family: dosis,sans-serif;
+  color:#bbb;
+  text-shadow:0 1px 1px rgba(0,0,0,.3);
+  border-top:1px solid #444;
+  background-color:#333;
+}
+.table-of-content .toc-header:hover {
+    background-color: #484848;
+    transition: all 0.3s;
+}
+.table-of-content .toc-header:after {
+    content: '\f0fe';
+    float: right;
+    font-family: FontAwesome;
+    color: #4e4e4e;
+}
+.table-of-content .toc-header.active {
+  color:#efefef;
+  background:#29958d;
+}
+.table-of-content .toc-header.active:after {
+    content: '\f146';
+    float: right;
+    color: #efefef;
+    font-family: FontAwesome;
+}
+.table-of-content .loading {
+  display:block;
+  padding:10px 15px;
+  text-decoration:blink;
+}
+.table-of-content ol {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.table-of-content li {
+  line-height:normal;
+  margin:0;
+  padding:2px 5px 5px 15px;
+  white-space:nowrap;
+  text-align:left;
+  overflow:hidden;
+}
+.table-of-content li:first-child {border-top:none}
+.table-of-content li:last-child {border-bottom:none}
+.table-of-content a {
+  color:#8c8c8c;
+  text-decoration:none;
+}
+.table-of-content a:hover {text-decoration:none}
+.table-of-content a:visited {color:#b89256}
+.credit-link {
+  text-align:right;
+  margin-right:2px;
+}
+.credit-link a {
+  font:normal bold 10px/normal Helmet,Freesans,Sans-Serif;
+  color:#333;
+  text-decoration:none;
+}
